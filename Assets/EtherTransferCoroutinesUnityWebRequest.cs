@@ -68,7 +68,7 @@ public class EtherTransferCoroutinesUnityWebRequest : MonoBehaviour {
         Amount = System.Decimal.Parse(InputAmount.text);
 
         //initialising the transaction request sender
-        var ethTransfer = new EthTransferUnityRequest(Url, PrivateKey, 444444444500);
+        var ethTransfer = new EthTransferUnityRequest(Url, PrivateKey, 3);
 
         var receivingAddress = AddressTo;
 
